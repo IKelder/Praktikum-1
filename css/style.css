@@ -47,13 +47,30 @@ header > .left > a:visited {
 
 .right {
 	float: right;
-	width: 287px;
+	width: 257px;
 	padding-top: 10px;
 }
 
 .search {
 	float: left;
 	margin-right: 25px;
+	border-bottom: 1px solid #cccccc;
+	width: 123px;
+}
+
+.search > button,
+.search > button:focus {
+	background:none;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+
+.search > input,
+.search > input:focus {
+	border:none;
+	outline: none;
+	width: 105px;
 }
 
 .lang > ul > li {
@@ -117,7 +134,7 @@ nav > ul > li {
 }
 
 .block > a > h2 {
-	width: 220px;
+	width: 205px;
 	height: 275px;
 	padding: 25px 0px 0px 15px;
 	font-size: 35px;
