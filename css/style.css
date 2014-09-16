@@ -55,7 +55,7 @@ header > .left > a:visited {
 	float: left;
 	margin-right: 25px;
 	border-bottom: 1px solid #cccccc;
-	width: 123px;
+	width: 124px;
 }
 
 .search > button,
@@ -104,7 +104,7 @@ nav > ul > li {
 .right > nav {
 	font-size: 18px;
 	float: right;
-	width: 359px;
+	width: 361px;
 	margin-top: 25px;
 }
 
